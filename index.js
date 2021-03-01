@@ -127,6 +127,18 @@ var vCard = (function () {
         birthday: '',
 
         /**
+         * Date of birth
+         * @type {Datetime}
+         */
+        anniversary: '',
+
+        /**
+         * Date of birth
+         * @type {Datetime}
+         */
+        ctime: '',
+
+        /**
          * Cell phone number
          * @type {String}
          */
@@ -277,6 +289,12 @@ var vCard = (function () {
         workUrl: '',
 
         /**
+         * URL pointing to a website that represents the cardbook's work in some way
+         * @type {String}
+         */
+        cUrl: '',
+
+        /**
          * Work mailing address
          * @type {object}
          */
@@ -293,6 +311,12 @@ var vCard = (function () {
          * @type {String}
          */
         workFax: '',
+
+        /**
+         * Work mailing address
+         * @type {object}
+         */
+        cplace: getMailingAddress(),
 
         /**
          * vCard version
